@@ -1,6 +1,8 @@
 import path from 'path'
 // import { postgresAdapter } from '@payloadcms/db-postgres'
 import { en } from 'payload/i18n/en'
+import { bg } from 'payload/i18n/bg'
+
 import {
   AlignFeature,
   BlockQuoteFeature,
@@ -86,7 +88,7 @@ export default buildConfig({
    * This is completely optional and will default to English if not provided
    */
   i18n: {
-    supportedLanguages: { en },
+    supportedLanguages: { en, bg },
   },
 
   admin: {
